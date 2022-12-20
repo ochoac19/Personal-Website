@@ -6,7 +6,10 @@
 img{
   max-width: 100%;
 }
-
+.top-fill{
+  height: 120px;
+  width: 100%;
+}
 /*End of All around CSS*/
 
 
@@ -108,9 +111,9 @@ body{
     /*For the intro image*/ 
     .intro-info img {
       width: 11rem;
-      border: 1px solid #F06000;
+      border: 2.5px solid #FDC82F;
       border-radius: 50%;
-      margin: 0.9rem 1rem 0 2rem;
+      margin: 1rem 0rem 1rem;
       float: left;
       margin-right: 20px;
     }
