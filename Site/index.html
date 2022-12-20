@@ -6,77 +6,176 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        
+        <script src="main.js"></script>
+        
+        <!-- for smooth scrolling -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     </head>
+    
 
-    <body>
-        <header>
-
+        <body>
            
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Education</a></li>
-                        <li><a href="">Courses</a></li>
-                    <li><a href="">Expierence</a></li>
-                    <li><a href="">Skills</a></li>
-                </ul>
-                <a href=""><button class="github-butt"></button></a>
-            </nav>
-        </header>
-
-        <!-- cards will be sections of site-->
-        <div class="cards">
-
-            <!--card-welcome will be design for welcome card-->
-            <div class="card-welcome">
-
+         
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="navbar-left">
+              <h1>Carlos Ochoa</h1>
+            </div>
+            <div class="navbar-right">
+              <a href="#aboutme">About Me</a>
+              <a href="#education">Education</a>
+              <a href="#experience">Experience</a>
+              <a href="#skills">Skills</a>
+              <a href="https://linkedin.com/in/carlos-a-ochoa" target="_blank"><img src="linkedin-logo-white.png" alt="LinkedIn Logo" height="30" width="30"></a>
+              <a href="https://github.com/ochoac19" target="_blank"><img src="github-logo-white.png" alt="GitHub Logo" height="30" width="30"></a>
             </div>
         </div>
+  
+  
+        <div class="top-filler">
+        <p class="top-fill"> </p>
+        </div>
 
-        <div class="cards">
+        <!-- About Me Card -->
+        <div id="aboutme">
+          <div class="row intro-section">
 
-            <div class="card-about-me">
+          
+            <div class="col-12">
+              <h5>About Me</h5>
+            </div>
+            <div class="col-12">
+              <h1>Introduction</h1>
+            </div>
+              
+            <div class="intro-info">
+              <img src="qtPic.JPG" alt="Cute Profile Picture"> 
+                <p class="into-details">
+                  Hello! My name is Carlos Andres Ochoa, I am currently pursuing my bachelors degree
+                  in Computer Science at East Carolina University and set to graduate May 2023.
+                  I'm a highly motivated and dedicated individual seeking an opportunity to further 
+                  enhance my knowledge and skill sets as a software engineer. I'm comfortable multi-tasking,
+                  communicating effectively,handling simultaneous assignment when need arises, along with being
+                  flexible with work schedule to accommodate. 
+                </p>
+            </div>
+          </div>
+        </div>
+
+        
+
+          <div id="education">
+
+            <div class="row education-section">
+
+              <div class="col-12">
+                <h5> Education </h5>
+              </div>
+              <div class="col-12">
+                <h1> Credentials </h1>
+              </div>
+              <div class="col-12">
+                <p class="idk">Here are my Degrees along with classes I have taken</p>
+              </div>
 
             </div>
 
-        </div>
+            <div class="col-twelve">
+              <div class="education-wrap">
+                
+                <div class="education-block">
+                  
+                  <div class="education-icon">
+                    <i class="fa fa-pencil">
+                      <!--suppose to be ::before-->
+                    </i>
+                  </div>
+                  <div class="education-header">
+                    <h3> Bachelors Of Science In Computer Science </h3>
+                    <p>Fall 2019 - Present (Graduation May 2023)</p>
+                  </div>
+                  <div class="education-content">
+                    <h4>
+                      East Carolina University
+                      <!--suppose to be ::after-->
+                    </h4>
+                  </div>
 
-        <div class="cards">
+                </div>
 
-            <div class="card-education">
+                <div class="education-block">
+                  
+                  <div class="education-icon">
+                    <i class="fa fa-pencil">
+                      <!--suppose to be ::before-->
+                    </i>
+                  </div>
+                  <div class="education-header">
+                    <h3> Associates In Science </h3>
+                    <p>Fall 2017 - Summer 2020</p>
+                  </div>
+                  <div class="education-content">
+                    <h4>
+                      Pitt Community College
+                      <!--suppose to be ::after-->
+                    </h4>
+                  </div>
+
+                </div>
+
+                <div class="education-block">
+                  
+                  <div class="education-icon">
+                    <i class="fa fa-pencil">
+                      <!--suppose to be ::before-->
+                    </i>
+                  </div>
+                  <div class="education-header">
+                    <h3>Associates In Arts </h3>  <!--2.92 lol-->
+                    <p>Fall 2017 - Summer 2020</p>
+                  </div>
+                  <div class="education-content">
+                    <h4>
+                      Pitt Community College
+                      <!--suppose to be ::after-->
+                    </h4>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+
 
             </div>
-            
+
+
+          </div>
+
+
+          <!-- Education Card 
+          <div id="education" class="card">
+              <h2>Education</h2>
+
+              <p>East Carolina University</p>
+          </div> 
+
+         Experience Card 
+        <div id="experience" class="card">
+        <h3>Experience</h3>
+        <p>Experience ig</p>
         </div>
 
-        <div class="cards">
-
-            <div class="card-courses">
-
-            </div>
-            
+         Skills Card 
+        <div id="skills" class="card">
+        <h3>Skills</h3>
+        <p>skills ig</p>
         </div>
-
-        <div class="cards">
-
-            <div class="card-expierences">
-
-            </div>
-            
-        </div>
-
-        <div class="cards">
-
-            <div class="card-skills">
-
-            </div>
-            
-        </div>
-
-
-    
-    
-    
-    
+                        
+      -->
+        
     </body>
+</html>
  
